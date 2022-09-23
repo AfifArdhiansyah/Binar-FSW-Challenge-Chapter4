@@ -1,0 +1,17 @@
+{
+  "name": "binar-fsw-challenge-04",
+  "version": "1.0.0",
+  "description": "Project HTTP Server dan DOM",
+  "main": "server/index.js",
+  "author": "Fikri Rahmat Nurhidayat <fnurhidayat@binar.co.id>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "live": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "load-svg-file": "^1.0.8",
+    "nodemon": "^2.0.20"
+  }
+}
